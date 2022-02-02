@@ -1,0 +1,136 @@
+body {
+    background-color: #13192C; 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.img1 {
+    position: absolute;
+    border-radius: 10px;
+    bottom: 24px;
+    width: 24em;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navc {
+    bottom: 2.5em;
+    position: absolute;
+    z-index: 1;
+}
+
+.n1 {
+    height: 1.5em;
+    cursor: pointer;
+    margin-right: 4.5em;
+    position: relative;
+    z-index: 3;
+}
+
+.n2 {
+    height: 1.5em;
+    cursor: pointer;
+    margin-right: 4.5em;
+    position: relative;
+    z-index: 3;
+}
+
+.n3 {
+    height: 1.5em;
+    cursor: pointer;
+    margin-right: 4.5em;
+    position: relative;
+    z-index: 3;
+}
+
+.n4 {
+    height: 1.5em;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+
+
+.bell {
+    position: absolute;
+    top: 35px;
+    right: 3em;
+    width: 2em;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.notf {
+    width: 13em;
+    position: absolute;
+    border-radius: 10px;
+    top: 100px;
+    margin-right: 1em;
+    z-index: 3;
+    display: none;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.300), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.notif {
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+.logo {
+    position: absolute;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.not {
+    display: none;
+}
+
+.img2 {
+    display: none;
+}
+
+.navbar {
+    display: none;
+}
+
+.desktopview {
+    display: none;
+}
+
+.miniview {
+    display: none;
+}
+
+@font-face { 
+    font-family: Poppins-Regular; 
+    font-weight: bold; 
+    src: url('Fonts/poppins/Poppins-Regular.otf');
+}
+
+@font-face { 
+    font-family: Poppins-Bold; 
+    font-weight: bold; 
+    src: url('Fonts/poppins/Poppins-Bold.otf');
+}
